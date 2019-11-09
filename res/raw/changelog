@@ -1,0 +1,100 @@
+1.0: Rilis inisial
+
+0.4.3:
+- Penanganan video Youtube yang jauh lebih baik.
+- Tombol Volume sekarang dapat diatur untuk menggulir halaman ke atas / bawah (terima kasih kepada Martin).
+- terjemahan Jerman (terima kasih kepada Martin lagi).
+
+0.4.2:
+- Catatan riwayat yang juga merupakan penanda sekarang ditampilkan dalam riwayat. Mengklik bintang memungkinkan untuk mengatur atau menghapus catatan riwayat sebagai bookmark.
+- Penyimpanan bookmark / riwayat dapat diatur ke basis data internal melalui preferensi, untuk orang-orang yang peduli dengan privasi atau yang ingin menyimpan kumpulan bookmark yang berbeda. Perilaku default adalah menggunakan basis data bookmark Android.
+- Menangani Otentikasi HTTP.
+- Mendukung proxy sistem (terima kasih kepada LeChuck). Anda harus menggunakan aplikasi pihak ketiga seperti "Pengaturan Proxy" di pasar untuk mengubah pengaturan proxy sistem.
+- Halaman yang terakhir dikunjungi dapat dipulihkan saat browser memulai kembali. Harus diaktifkan di preferensi.
+
+0.4.1:
+- Perbaikan bug untuk penutupan paksa di bawah Android> = 3.
+
+0.4.0:
+- Fitur: Bookmark dan riwayat sekarang menggunakan bookmark stok Android dan database riwayat. Bookmark lama Anda telah disimpan ke kartu SD Anda. Buka "Preferensi / Kelola bookmark dan riwayat" dan impor file "auto-export.xml" jika Anda ingin mengambilnya.
+- Fitur: Zirco sekarang dapat mengambil bookmark Anda dari Firefox Sync. Buka sinkronisasi "Preferensi / Firefox bookmark" untuk mulai menggunakannya!
+- Fitur: pencarian dapat dilakukan di halaman web.
+- Tambahkan menu konteks "Bagikan" ke tampilan bookmark dan riwayat.
+- Desain baru untuk halaman awal.
+- Hapus unduhan yang selesai dari daftar unduhan.
+- Pemberitahuan untuk unduhan yang selesai dihapus saat mengkliknya.
+
+0.3.9:
+- Perbaikan bug dalam tampilan histori. Item sekarang ditampilkan dalam kategori berbeda (hari ini, minggu lalu, bulan lalu ...)
+- Tambahkan tombol di sebelah kiri bilah url (di mana tombol "Rumah") memungkinkan untuk memilih di antara tindakan yang berbeda (bagikan, pilih teks ...)
+
+0.3.8:
+- Beralih di antara tab sekarang dapat dilakukan dengan dua cara, baik dengan metode gerakan melempar sebelumnya, atau dengan menggunakan tombol khusus yang ditampilkan dan disembunyikan bersama dengan bilah alat. Metode ini dapat disesuaikan dalam preferensi UI. Default adalah menggunakan tombol baru.
+- Dukungan zoom cubitan yang jauh lebih baik.
+- Opsi baru memungkinkan untuk menampilkan atau tidak bilah judul aplikasi.
+- Perbaikan kerusakan.
+
+0.3.7:
+- terjemahan Cina.
+- Tambahkan halaman Bagikan, Bagikan tautan, Bagikan gambar dan Opsi berbagi email.
+- Toolbar sekarang ditampilkan dan disembunyikan dengan animasi cepat.
+
+0.3.6:
+- Perilaku tombol volume dapat dikustomisasi untuk memperbesar, mengganti tab, menavigasi dalam riwayat, atau memiliki perilaku default (mis. Ubah volume). Default adalah untuk mengubah volume.
+- Perbaikan bug manajemen plugin.
+- Ukuran Favicon sekarang dinormalisasi, berdasarkan kepadatan layar.
+- Bergerak ke Kartu SD.
+
+0.3.5:
+- Situs web dapat ditampilkan dalam tampilan seluler "palsu", disediakan oleh Google GWT; Ini dapat dilakukan atas permintaan, atau secara otomatis melalui daftar situs web dalam preferensi;
+- Dukungan plugin;
+- Dukungan sertifikat SSL tidak terpercaya;
+
+0.3.4:
+- Dengan permintaan populer, menambahkan tombol "Tutup", meskipun saya tidak melihat perlunya :).
+- Menambahkan tombol "Beranda" di bilah url (dapat disembunyikan di preferensi).
+- Menambahkan opsi "Bersihkan cache saat keluar" dalam pengaturan privasi.
+- Menu konteks untuk gambar dan tautan mailto ditambahkan.
+- Teks dapat dipilih dan disalin ke clipboard.
+- Pemberitahuan tambahan untuk memulai / mengakhiri unduhan.
+
+0.3.3:
+- Pencarian dapat dilakukan dari bilah url. Url pencarian dapat disesuaikan.
+- Halaman awal dapat disesuaikan.
+- Halaman awal dapat menampilkan kotak pencarian.
+- Agen pengguna browser dapat disesuaikan.
+- Daftar putih pemblokir iklan sekarang disimpan dalam basis data.
+- Bar Url sekarang menampilkan favicons.
+- Bookmark dapat diekspor ke bookmark browser Android.
+- Saran yang ditingkatkan di bilah url, sekarang cari di riwayat dan bookmark; desain yang lebih baik.
+
+0.3.2:
+- Menambahkan halaman awal, menampilkan bookmark yang paling banyak digunakan dan riwayat terkini.
+- Bookmark dapat diurutkan berdasarkan jumlah klik.
+- Ubah ikon yang diatur agar sesuai dengan pedoman Android.
+- Ikon yang ditambahkan untuk perangkat mdpi / hdpi.
+- Menambahkan dialog changelog.
+
+0.3.1:
+- Zoom dengan ketuk dua kali.
+- Jendela bookmark / riwayat kombinasi.
+- Desain yang diperbarui.
+- Pindah dialog ke preferensi.
+- Perbaiki bug: terkadang memuat halaman tetapi tidak muncul.
+
+0.3.0:
+- Desain baru.
+- Perbaikan Bug: FC saat start-up untuk lokal selain bahasa Inggris / Perancis.
+
+0.2.9:
+- Pinch zoom;
+- Posisi "Bubble" dapat diatur ke kanan, kiri atau keduanya.
+- Bookmark impor / ekspor dari / ke kartu SD.
+- Dukungan cepat Javascript;
+
+0.2.8:
+- VND handler url;
+- Tekan kembali aplikasi berhenti lama;
+- Menambahkan terjemahan Perancis;
+
+0.2.7: Rilis publik pertama.

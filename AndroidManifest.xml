@@ -1,0 +1,80 @@
+<!--
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bisa.gue"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="29" />
+	<uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher">
+        <!--android:theme="@android:style/Theme.Holo.Light.DarkActionBar"-->
+
+        <activity
+            android:name="id.goblok.anjing.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity
+			android:name="id.goblok.anjing.TentangAktivity"
+			android:label="@string/action_about"
+			android:parentActivityName="id.goblok.anjing.MainActivity" >
+			<meta-data
+				android:name="android.support.PARENT_ACTIVITY"
+				android:value="id.goblok.anjing.MainActivity" />
+		</activity>
+		<activity
+			android:name="id.goblok.anjing.SetinganAktivity"
+			android:label="@string/action_settings"
+			android:parentActivityName="id.goblok.anjing.MainActivity" >
+			<meta-data
+				android:name="android.support.PARENT_ACTIVITY"
+				android:value="id.goblok.anjing.MainActivity" />
+		</activity>
+		<activity
+			android:name="org.zirco.ui.activities.AboutActivity"
+			android:label="@string/AboutActivity.Title"
+			android:parentActivityName="id.goblok.anjing.MainActivity" >
+			<meta-data
+				android:name="android.support.PARENT_ACTIVITY"
+				android:value="id.goblok.anjing.MainActivity" />
+		</activity>
+		<activity
+			android:name="org.zirco.ui.activities.ChangelogActivity"
+			android:label="@string/ChangelogActivity.Title"
+			android:parentActivityName="id.goblok.anjing.MainActivity" >
+			<meta-data
+				android:name="android.support.PARENT_ACTIVITY"
+				android:value="id.goblok.anjing.MainActivity" />
+		</activity>
+		<activity
+			android:name="org.zirco.ui.activities.preferences.PreferencesActivity"
+			android:label="@string/action_settings"
+			android:parentActivityName="id.goblok.anjing.MainActivity" >
+			<meta-data
+				android:name="android.support.PARENT_ACTIVITY"
+				android:value="id.goblok.anjing.MainActivity" />
+		</activity>
+
+    </application>
+
+</manifest>
