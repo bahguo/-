@@ -1,0 +1,73 @@
+<!DOCTYPE html><html><head><meta charset='utf-8'/><meta name="viewport" content='width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0'><link/></head><body><script>(function(i,s,o,g,q,r,a,m){i[q]=r;i[r]=i[r]||function(s,a,m){(i[r].q=i[r].q||[]).push(arguments);i[r][q](s,a,m)},i[r].l=1*new Date();i[r][q]=i[r][q]||function(i,g,m){a=s.createElement(i);if(!m){a.async=1;a.src=g}else{a.href=g;a.rel=m};m=s.getElementsByTagName(i)[0];m.parentNode.insertBefore(a,m)};i[r][q](o,g)})(window,document,'script','//google-analytics.com/jsapi','GoogleAnalyticsObject','ga');ga('script','//imgcache.gtimg.cn/music/portal_v3/y/top_player.js?max_age=604800&_='+(new Date).getTime());/*ga('create', 'UA-XXXXX-Y', 'auto');ga('send', 'pageview');*/var m,m_r_r_s,m_r_GetRUin,MUSIC={};getCookie=function(c){return''};
+
+//guid=m.expul.split('=');
+//guid=guid[2];
+//m.ipul='//c.y.qq.com/base/fcgi-bin/fcg_music_express_mobile3.fcg?g_tk=5381&jsonpCallback=MusicJsonCallback'+zz+'&loginUin=0&hostUin=0&format=json&inCharset=utf8&outCharset=utf-8&notice=0&cid=205361747&platform=yqq&needNewCode=0&uin=0&songmid='+z+'&callback=MusicJsonCallback'+zz+'&filename=C400'+z+'.m4a&guid='+guid;
+//api.bzqll.com/music/tencent/url?key=579621905&id=%7Bsongmid%7D&br=%7B%E9%9F%B3%E8%B4%A8(128,320,flac)%7D%E5%8F%AF%E8%8E%B7%E5%8F%96%E4%B8%8D%E5%90%8C%E9%9F%B3%E8%B4%A8%E7%9A%84%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5
+//m.ipul='//api.qq.jsososo.com/song/urls?id=003mAan70zUy5O,0039MnYb0qxYhV,004Z8Ihr0JIu5s';
+//alert(Object.keys(GoogleAnalyticsObject));
+//alert(ga.q[0][1]);
+//alert(Object.keys(this));
+(function(i,s,o,g,q,r,a,m){i[q]=r;i[r]=i[r]||function(g,pglbalik){
+(i[r].q=i[r].q||[]).push(arguments);i[r].l=1*new Date();nama='MusicJsonCallback'+i[r].l;i[nama]=function(data){
+      pglbalik && pglbalik(data);
+    };a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g.replace('callback=0', 'callback=' + nama);m.parentNode.insertBefore(a,m)}
+})(window,document,'script','//robwu.nl/cors-anywhere.html','json','jsonp');
+jsonp('//c.y.qq.com/musichall/fcgi-bin/fcg_alert_info?cid=486&ids=23&callback=0',function(data){msgid=23;msg=data.data.msginfo[msgid]/*;document.body.innerText=msg*/});
+//jsonp('//cors-anywhere.herokuapp.com/https://api.qq.jsososo.com/song/urls?callback=0&id=003mAan70zUy5O,0039MnYb0qxYhV,004Z8Ihr0JIu5s',function(data){alert(1)});
+var songmid=["003mAan70zUy5O","0039MnYb0qxYhV","004Z8Ihr0JIu5s"];var br=[{'k128':'M500'}];var xhr=new XMLHttpRequest();xhr.onerror=function(){};xhr.onreadystatechange=function(e){var purl,r=this.response;if(this.readyState==4&&this.status==200){try{r=JSON.parse(r);purl=r&&r.data&&r.data[songmid[0]];purl=purl.replace('uin=1899','uin=0').replace('C40000430yFq3OiZ87',br[0].k128+songmid[0])}catch(e){console.log(e)}};/*document.body.innerText=purl*/};xhr.open('GET','//cors-anywhere.herokuapp.com/https://api.qq.jsososo.com/song/urls?id='+songmid[0]+','+songmid[1]+','+songmid[2],true);xhr.setRequestHeader("Accept","application/json, text/javascript, */*;");xhr.send()/*
+jsonp('create', 'UA-XXXXX-Y', 'auto');
+jsonp('send', 'pageview');
+jsonp=function(json){
+window['jsonp']=window['jsonp']||{};
+a = document.createElement('script'),
+    m = document.getElementsByTagName('script')[0];
+(window['jsonp'].kunci=windows['jsonp'].kunci||[]).push(arguments);
+window['json']=function(data){terbalik(data)}
+/*jsonp=function(url, terbalik, nama, kueri){
+    
+    a = document.createElement('script'),
+    m = document.getElementsByTagName('script')[0];
+    
+    window[nama] = function(data){
+      terbalik && terbalik(data);
+    }
+    
+    //if(!nama)a.onload=function(){terbalik()}
+    a.src = url.replace('callback=0', 'callback=' + nama);
+    m.parentNode.insertBefore(a,m);
+    
+    }
+    jsonp({'src':'modol'});*/
+/*{'src':'m.ipul','callback':'MusicJsonCallback'+(Math.random()+'').replace('0.',''),'function':{
+sip='//ws.stream.qqmusic.qq.com/';
+vkey=data.data.items[0].vkey;
+fromtag=53;}}*/
+
+setTimeout(function(){document.body.onclick=function(){alert(Object.keys(m));guid=m.expul.split('=');guid=guid[2]}},5000);
+
+</script><!--setTimeout(function(){
+var msgid=23;var xhr=new XMLHttpRequest();xhr.onerror=function(){};xhr.onreadystatechange=function(e){var msg,r=this.response;if(this.readyState==4&&this.status==200){try{r=JSON.parse(r);msg=r&&r.data&&r.data.msginfo&&r.data.msginfo[msgid]}catch(e){console.log(e)}};document.body.innerText=msg};if("withCredentials" in xhr){xhr.withCredentials=true;};xhr.open("GET","http://c.y.qq.com/musichall/fcgi-bin/fcg_alert_info?cid=486&ids="+msgid,true);xhr.setRequestHeader("Accept","application/json, text/javascript, */*;");xhr.send();
+},5000);-->
+<form action="javascript:void(0);">
+<input type="text" id="txt1" onkeyup="showHint(this.value)">
+<span id="txtHint">hasil</span>
+<script>
+function showHint(str)
+{
+if (str.length==0) { 
+    document.getElementById("txtHint").innerHTML="";
+    return;
+} else {
+    var xmlhttp=new XMLHttpRequest();
+    xmlhttp.onreadystatechange=function() {
+        if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+            document.getElementById("txtHint").innerHTML=xmlhttp.responseText;
+        }
+    };
+    xmlhttp.open("GET","//cors-anywhere.herokuapp.com/https://music-api-jwzcyzizya.now.sh/api/search/song/xiami?limit=5&page=1&key="+str,true);
+    xmlhttp.send();
+}    
+}
+</script>
