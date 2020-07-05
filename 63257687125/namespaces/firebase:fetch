@@ -1,0 +1,22 @@
+{
+  "entries": {
+    "amplitude_android_enabled": "true",
+    "amplitude_ios_enabled": "true",
+    "display_count_till_prompt": "3",
+    "display_count_till_prompt_if_was_shown": "4",
+    "enable_how_it_works": "true",
+    "filter_download_count_till_prompt": "5",
+    "filter_download_count_till_prompt_if_was_shown": "10",
+    "inpreview_crosspromo_enabled": "true",
+    "inpreview_crosspromo_total_display_count": "2",
+    "limited_offer_enabled": "true",
+    "limited_offer_minutes_duration": "180",
+    "lr_color_theme_enabled": "true",
+    "max_prompt_count": "3",
+    "pack_get_all_button_enabled": "true",
+    "purchase_verification_enabled": "true",
+    "show_onboarding_subscription": "true"
+  },
+  "appName": "com.feelty",
+  "state": "UPDATE"
+}
