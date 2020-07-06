@@ -192,16 +192,15 @@
     invoke-direct {v0}, Lh/z$a;-><init>()V
 
     invoke-virtual {v0, v2}, Lh/z$a;->h(Ljava/net/URL;)Lh/z$a;
-
 const-string v1,"invoke-virtual {v0, p2}, Lh/z$a;->f(Lh/a0;)Lh/z$a;#modol"
 const-string v1,"getAccountStatusAndLicenses"
 invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 move-result v1
 const-string p1,"POST"
-if-eqz v1,:cond_1
+if-eqz v1,:cond_0
 const-string p1,"GET"
 const/4 p2,0x0
-:cond_1
+:cond_0
 invoke-virtual {v0, p1, p2}, Lh/z$a;->e(Ljava/lang/String;Lh/a0;)Lh/z$a;
     .line 10
     invoke-virtual {p3}, Lcom/google/firebase/functions/l;->a()Ljava/lang/String;
