@@ -1,0 +1,6 @@
+https://codepush.appcenter.ms/v0.1/public/codepush/update_check?deployment_key=VASKDDe-koqI0Olc5CKSoTVHqzsLBJTqLjza4&app_version=4.2.0&package_hash=7297df2aa6964ce8fe6404b50415daaa44acf0b076c2e51b1b45d61947cd5034&is_companion=false&client_unique_id=73d828fd6d64e948
+{"update_info":{"download_url":"https://codepushupdates.azureedge.net/storagev2/bhUtUGNuU4xGCj-nzJFXXQEtYVTR5f1fb4ba-3269-4c43-924b-408607f111eb","is_available":true,"is_disabled":false,"target_binary_range":"4.2.0","package_hash":"c7eb9faaec41a0204242ebeb684129d597da60ad1343d23fd425d95f463eeb06","label":"v489","package_size":5091335,"update_app_version":false,"should_run_binary_version":false,"is_mandatory":false}}
+
+Ld/f/a/b/i1/e;->K()I "IAP_FLOW_TYPE"
+Ld/f/a/b/i1/e;->t()Z "MENTORING_PURCHASED","MTM_PURCHASED"
+Ld/f/a/b/i1/e;->s0(Ljava/lang/String;Z)V "QAAP_PURCHASED"
