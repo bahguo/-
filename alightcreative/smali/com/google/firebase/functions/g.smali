@@ -123,7 +123,7 @@
 .end method
 
 .method private d(Ljava/lang/String;Ljava/lang/Object;Lcom/google/firebase/functions/l;Lcom/google/firebase/functions/k;)Lcom/google/android/gms/tasks/j;
-    .registers 8
+    .registers 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -146,7 +146,7 @@
     .line 2
     invoke-virtual {p0, p1}, Lcom/google/firebase/functions/g;->i(Ljava/lang/String;)Ljava/net/URL;
 
-    move-result-object v2
+    move-result-object p1
 
     .line 3
     new-instance v0, Ljava/util/HashMap;
@@ -191,16 +191,19 @@
 
     invoke-direct {v0}, Lh/z$a;-><init>()V
 
-    invoke-virtual {v0, v2}, Lh/z$a;->h(Ljava/net/URL;)Lh/z$a;
+    invoke-virtual {v0, p1}, Lh/z$a;->h(Ljava/net/URL;)Lh/z$a;
+
 const-string v1,"invoke-virtual {v0, p2}, Lh/z$a;->f(Lh/a0;)Lh/z$a;#modol"
-const-string v1,"getAccountStatusAndLicenses"
+const-string v1,"https://raw.githubusercontent.com/bahguo/-/%C2%AD/getAccountStatusAndLicenses"
+invoke-virtual {p1}, Ljava/net/URL;->toString()Ljava/lang/String;
+move-result p1
 invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 move-result v1
 const-string p1,"POST"
-if-eqz v1,:cond_0
+if-eqz v1,:cond_1
 const-string p1,"GET"
 const/4 p2,0x0
-:cond_0
+:cond_1
 invoke-virtual {v0, p1, p2}, Lh/z$a;->e(Ljava/lang/String;Lh/a0;)Lh/z$a;
     .line 10
     invoke-virtual {p3}, Lcom/google/firebase/functions/l;->a()Ljava/lang/String;
